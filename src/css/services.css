@@ -1,0 +1,43 @@
+.services-body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.services-mid{
+    display: flex;
+    padding: 0 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.service-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 auto;
+    width: 517px;
+    padding: 0 12px;
+    margin-bottom: 30px;
+}
+.service-box p{
+    color: #6c757d;
+    font-weight: 400;
+    line-height: 28px;
+}
+.service-details{
+    max-width: 403px;
+}
+.service-details h3{
+    font-size: 20px;
+}
+.service-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    background-color: #212529;
+    box-sizing: border-box;
+    border-radius: 6px;
+}

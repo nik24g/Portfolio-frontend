@@ -1,0 +1,126 @@
+p{
+    margin: 0;
+}
+.about-section{
+    /* border: 1px solid red; */
+    min-height: 100vh;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    /* padding-top: 72px; */
+}
+.about-heading{
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+    height: 150px;
+}
+.about-heading p{
+    margin: 0;
+    font-weight: 700;
+    z-index: 1;
+}
+#aboutfad{
+    font-size: 121px;
+    text-transform: uppercase;
+    font-weight: 700;
+    opacity: 0.1;
+    position: absolute;
+    color: #6c757d;
+}
+#underbar{
+    display: block;
+    width: 100px;
+    background: #20c997;
+    height: 2.5px;
+    z-index: 1;
+}
+
+
+
+.download-btn{
+    border: 2px solid #20c997;
+    width: 195px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0.8rem 2.6rem;
+    transition: all .5s ease;
+    background-color: #20c997;
+    border-radius: 50rem;
+    color: white;
+    margin-top: 15px;
+}
+.about-mid{
+    /* border: 2px solid red; */
+    display: flex;
+    padding: 0px 48px;
+}
+#email-span{
+    color: #20c997;
+}
+.left-content{
+    /* border: 2px solid green; */
+    max-width: 729px;
+    padding: 0 12px;
+}
+.left-content p{
+    font-size: 18px;
+    color: hsla(0,0%,100%,.5);
+    line-height: 28.8px;
+    margin-block-end: 16px;
+}
+.left-content h2 span{
+    color: #20c997;
+}
+.right-content{
+    /* border: 2px solid blue; */
+    width: 376px;
+    height: 276px;
+    padding: 0 0 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-details li{
+    border-bottom: 1px solid hsla(0,0%,98%,.12);
+    padding-bottom: 12px;
+    padding-top: 12px;
+    font-weight: 600;
+}
+.about-details li:nth-child(4){
+    border-bottom: none;
+}
+.about-details li span{
+    font-weight: 400;
+}
+.state{
+    max-width: 100%;
+    /* border: 1px solid cyan; */
+    height: 131px;
+    margin: 0 48px 0 48px;
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+.state-child-box{
+    /* border: 1px solid goldenrod; */
+    width: 100%;
+    padding: 20px 12px;
+    border-right: 1px solid hsla(0,0%,98%,.12);
+}
+.state-number{
+    margin: 0;
+    font-size: 48px;
+    color: hsla(0,0%,100%,.5);
+    display: inline-block;
+}
+.plus-mark{
+    color: hsla(0,0%,100%,.5);
+    font-size: 48px;
+}

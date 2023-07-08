@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  font-family: 'Baloo 2', cursive;
+  margin: 0;
+  padding: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.outer-body{
+  display: flex;
+  /* border: 1px solid blue; */
+  min-height: 100vh;
+}
