@@ -1,5 +1,6 @@
 import React from 'react'
 import Typed from 'typed.js';
+import { Link } from 'react-router-dom'
 
 import '../css/home.css'
 
@@ -26,8 +27,8 @@ export default function Home(props) {
         <div className="content">
             <h1>Welcome</h1>
             <h1><span ref={el}></span></h1>
-            <h1>Based in Gwalior, MP</h1>
-            <button className="hire-me">Hire Me</button>
+            <h1>based in Gwalior, Madhya Pradesh</h1>
+            <Link to="/contact"><button className="hire-me">Hire Me</button></Link>
         </div>
 
     )

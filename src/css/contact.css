@@ -1,0 +1,127 @@
+.contact-body{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 48px;
+}
+.contact-mid{
+    display: flex;
+}
+.left-contact{
+    width: 282px;
+    height: 352px;
+    line-height: 24px;
+}
+.address h{
+    font-size: 21px;
+    margin: 0 0 16px;
+}
+.address p{
+    color: #dee3e4;
+    line-height: 1.8;
+    margin-bottom: 24px;
+}
+
+.contact-details p{
+    width: 258px;
+    height: 32.4px;
+    line-height: 28.8px;
+    margin: 0 0 4px;
+}
+.contact-details p span{
+    margin: 0 8px 0 0;
+}
+.social-links h2{
+    font-size: 21px;
+    text-transform: capitalize;
+}
+.social-links a img{
+    height: 18px;
+    filter: invert(75%);
+}
+.social-links a{
+    width: 26px;
+    height: 26px;
+    margin: 0px 20px 0px 0px;
+}
+
+.right-contact{
+    width: 857px;
+    height: 352px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.info-inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.info-inputs input{
+    border: 1px solid;
+    border-color: #232a31;
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    width: 399px;
+    height: 51.5px;
+    padding: 0.81rem 0.96rem;
+    border-radius: 0.375rem;
+    line-height: 1.5;
+    background: #232a31;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+.info-inputs input:focus{
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128,189,255,.5);
+    outline: 0;
+    /* background: #232a31; */
+}
+.description{
+    height: 147.5px;
+    box-sizing: border-box;
+    margin: 24px 0 0 0;
+}
+.description textarea{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    display: block;
+    background: #232a31;
+    border-color: #232a31;
+    color: #fff;
+    padding: 0.81rem 0.96rem;
+    min-height: calc(1.5em + 0.75rem + 2px);
+    border-radius: 0.375rem;
+    font-weight: 400;
+    line-height: 1.5;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    resize: vertical;
+}
+.description textarea:focus{
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128,189,255,.5);
+    outline: 0;
+}
+.submit-btn{
+    border: 2px solid #20c997;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    padding: 0.8rem 2.6rem;
+    transition: all .5s ease;
+    background-color: #20c997;
+    border-radius: 50rem;
+    line-height: 24px;
+    font-weight: 500;
+    box-sizing: border-box;
+    font-size: 16px;
+    max-width: 200px;
+    margin: 25px;
+    align-self: center;
+}

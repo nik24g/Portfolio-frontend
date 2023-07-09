@@ -25,22 +25,22 @@ export default function AboutUs(props) {
             </div>
             <div className="state">
                 <div className="state-child-box">
-                    <p className='state-number'>10</p>
+                    <p className='state-number'>1</p>
                     <span className="plus-mark">+</span>
                     <p>Years Experiance</p>
                 </div>
                 <div className="state-child-box">
-                    <p className='state-number'>250</p>
+                    <p className='state-number'>5</p>
                     <span className="plus-mark">+</span>
                     <p>Happy Clients</p>
                 </div>
                 <div className="state-child-box">
-                    <p className='state-number'>650</p>
+                    <p className='state-number'>10</p>
                     <span className="plus-mark">+</span>
                     <p>Projects Done</p>
                 </div>
                 <div className="state-child-box">
-                    <p className='state-number'>38</p>
+                    <p className='state-number'>2</p>
                     <span className="plus-mark">+</span>
                     <p>Get Awards</p>
                 </div>

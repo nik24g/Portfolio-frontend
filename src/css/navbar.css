@@ -37,18 +37,18 @@
 .name{
     margin-top: 0px;
 }
-.social-links ul li{
+.nav-social-links ul li{
     list-style: none;
     display: inline-block;
     margin: 10px 11px;
     cursor: pointer;
 }
-.social-links ul li img{
+.nav-social-links ul li img{
     filter: invert(75%);
     width: 15px;
     height: 15px;
 }
-.social-links ul{
+.nav-social-links ul{
     margin: 10px;
     margin-bottom: 0px;
 }

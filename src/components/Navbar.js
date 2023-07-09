@@ -25,15 +25,15 @@ export default function Navbar() {
                     <Link to="/resume"><li>Resume</li></Link>
                     <Link to="/"><li>Portfolio</li></Link>
                     <Link to="/"><li>Testimonial</li></Link>
-                    <Link to="/"><li>Contact</li></Link>
+                    <Link to="/contact"><li>Contact</li></Link>
                 </ul>
             </div>
-            <div className="social-links">
+            <div className="nav-social-links">
                 <ul>
-                    <li><img src={fbIcon} alt="facebook-icon" /></li>
-                    <li><img src={twiIcon} alt="twitter-icon" /></li>
-                    <li><img src={gitIcon} alt="github-icon" /></li>
-                    <li><img src={linkdinIcon} alt="linkdin-icon" /></li>
+                    <a href="https://www.facebook.com/profile.php?id=100004814653531" target="_blank" rel="noopener noreferrer"><li><img src={fbIcon} alt="facebook-icon" /></li></a>
+                    <a href="https://twitter.com/Nikgoswami24" target="_blank" rel="noopener noreferrer"><li><img src={twiIcon} alt="twitter-icon" /></li></a>
+                    <a href="https://github.com/nik24g" target="_blank" rel="noopener noreferrer"><li><img src={gitIcon} alt="github-icon" /></li></a>
+                    <a href="https://www.linkedin.com/in/nitin-goswami-064734218/" target="_blank" rel="noopener noreferrer"><li><img src={linkdinIcon} alt="linkdin-icon" /></li></a>
                 </ul>
             </div>
         </div>
