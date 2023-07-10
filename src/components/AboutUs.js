@@ -10,8 +10,8 @@ export default function AboutUs(props) {
             <div className="about-mid">
                 <div className="left-content">
                     <h2 style={{fontSize: "30px"}}>I'm <span>Nitin Goswami, </span> a Web Developer</h2>
-                    <p>I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <p>Delivering work within time and budget which meets client's requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.</p>
+                    <p>I help you build brand for your business at an affordable price. We listen attentively to our clients' needs, providing tailored solutions that align with their vision. Through clear communication and regular updates, we involve our clients in every step of the process, ensuring their requirements are met effectively. </p>
+                    <p>Delivering work within time and budget which meets client's requirements is our moto.  I am committed to providing a seamless and satisfying experience, ensuring on-time delivery, meticulous attention to detail, and fulfilling all client requirements with precision to bring their visions to life.</p>
                 </div>
                 <div className="right-content">
                     <ul className="about-details">

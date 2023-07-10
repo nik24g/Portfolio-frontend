@@ -31,3 +31,8 @@
     height: 2.5px;
     z-index: 1;
 }
+@media screen and (max-width: 990px) {
+    #faded-heading{
+        font-size: 75px;
+    }
+}

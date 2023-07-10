@@ -7,6 +7,10 @@ body, html {
 body{
   overflow: hidden;
 }
+::selection{
+  background-color: #20c997;
+  color: white;
+}
 ul{
   padding: 0;
   margin: 0;
@@ -22,4 +26,13 @@ a{
   display: flex;
   /* border: 1px solid blue; */
   min-height: 100vh;
+}
+
+/* Adding css for responsive */
+@media screen and (max-width: 990px) {
+  .outer-body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 }

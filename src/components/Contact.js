@@ -8,7 +8,8 @@ import twiIcon from '../images/twitter-icon.png'
 import linkdinIcon from '../images/linkdin-icon.png'
 import gitIcon from '../images/github-icon.png'
 
-export default function Contact() {
+export default function Contact(props) {
+    document.title = props.title
     const iconHeight = "18px"
     return (
         <div className='contact-body'>

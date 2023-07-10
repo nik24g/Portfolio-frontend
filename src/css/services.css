@@ -1,9 +1,10 @@
 .services-body{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     background-color: #343a40;
     color: white;
     font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
 }
 .services-mid{
     display: flex;
@@ -23,7 +24,7 @@
 .service-box p{
     color: hsla(0,0%,100%,.5);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28.8px;
 }
 .service-details{
@@ -31,6 +32,7 @@
 }
 .service-details h3{
     font-size: 22px;
+    margin-bottom: 10px;
 }
 .service-icon{
     display: flex;
