@@ -24,9 +24,7 @@
 .nav-elements ul{
     padding: 0;
 }
-.nav-elements{
-    display: none;
-}
+
 .nav-elements ul li{
     padding: 8px;
     text-align: center;
@@ -67,6 +65,9 @@
 }
 /* Adding css for responsive */
 @media screen and (max-width: 990px) {
+  .nav-elements{
+    display: none;
+}
     .navbar-toggle{
         display: block;
     }

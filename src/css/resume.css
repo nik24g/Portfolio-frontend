@@ -8,21 +8,25 @@
 }
 .resume-mid-body{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .resume-mid-box h3{
     font-size: 24px;
     color: white;
-    margin: 0 0 24px;
+    margin: 0 10px 24px;
+}
+.resume-mid-box h3:first-child{
+    text-align: center;
 }
 .resume-card{
     box-sizing: border-box;
-    width: 528px;
-    height: 235px;
+    max-width: 528px;
+    /* height: 235px; */
     padding: 24px;
     background-color: #111418;
     border-radius: 6px;
-    margin: 0 0 24px;
+    margin: 0 10px 24px;
 }
 
 .year-container{
@@ -57,6 +61,7 @@
 /* skill css */
 .resume-bottom-body h2{
     margin: 24px 50px;
+    text-align: center;
 }
 .bars-box{
     display: flex;
@@ -117,4 +122,10 @@
     background-color: #6c757d;
     border-color: #6c757d;
     color: #fff;
+}
+
+@media screen and (max-width: 990px) {
+    .resume-bottom-body{
+        margin-bottom: 150px;
+    }
 }
