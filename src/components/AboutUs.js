@@ -1,9 +1,16 @@
 import React from 'react'
 import '../css/about.css'
 import FadedHeading from './FadedHeading'
+import resumePdf from '../document/Nitin-resume.pdf';
 
 export default function AboutUs(props) {
     document.title = props.title
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.download = 'Example-PDF-File';
+        link.href = resumePdf;
+        link.click();
+    };
     return (
         <div className='about-section'>
             <FadedHeading heading="About me" content="Know Me More"/>
@@ -20,7 +27,7 @@ export default function AboutUs(props) {
                         <li>Age: <span id="age-span">23</span></li>
                         <li>From: <span id="from-span">Gwalior, Madhaya Pradesh</span></li>
                     </ul>
-                    <button className="download-btn">Download CV</button>
+                    <button className="download-btn" onClick={handleDownload}>Download CV</button>
                 </div>
             </div>
             <div className="state">

@@ -37,8 +37,8 @@ export default function Navbar() {
                     <NavLink to="/about" onClick={removeNav}><li >About Me</li></NavLink>
                     <NavLink to="/services" onClick={removeNav}><li>What I Do</li></NavLink>
                     <NavLink to="/resume" onClick={removeNav}><li>Resume</li></NavLink>
-                    <NavLink to="/" onClick={removeNav}><li>Portfolio</li></NavLink>
-                    <NavLink to="/" onClick={removeNav}><li>Testimonial</li></NavLink>
+                    {/* <NavLink to="/" onClick={removeNav}><li>Portfolio</li></NavLink>
+                    <NavLink to="/" onClick={removeNav}><li>Testimonial</li></NavLink> */}
                     <NavLink to="/contact" onClick={removeNav}><li>Contact</li></NavLink>
                 </ul>
             </div>

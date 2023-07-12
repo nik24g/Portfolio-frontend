@@ -55,6 +55,7 @@ p{
     border-radius: 50rem;
     color: white;
     margin-top: 15px;
+    cursor: pointer;
 }
 .about-mid{
     /* border: 2px solid red; */

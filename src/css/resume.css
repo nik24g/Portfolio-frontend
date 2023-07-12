@@ -117,6 +117,7 @@
     display: block;
     margin: auto;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 .cv-btn:hover{
     background-color: #6c757d;

@@ -3,6 +3,7 @@ import '../css/resume.css'
 import FadedHeading from './FadedHeading'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import resumePdf from '../document/Nitin-resume.pdf';
 
 // sub-component for card 
 // sub-component using props --> year, courseOrDesig, organisation, description
@@ -103,6 +104,12 @@ export default function Resume(props) {
             percentage: 99
         }
     ]
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.download = 'Example-PDF-File';
+        link.href = resumePdf;
+        link.click();
+    };
     return (
         <div className='resume-body'>
             <FadedHeading heading="Summary" content="Resume" />
@@ -127,7 +134,7 @@ export default function Resume(props) {
                         <ProgressBar key={i} skill={skill.skill} skillPercentage={skill.percentage}/>
                     ))}
                 </div>
-                <button className="cv-btn">Download CV <FontAwesomeIcon icon={faDownload}/></button>
+                <button className="cv-btn" onClick={handleDownload}>Download CV <FontAwesomeIcon icon={faDownload}/></button>
             </div>
         </div>
     )
