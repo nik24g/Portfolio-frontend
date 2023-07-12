@@ -106,7 +106,7 @@ export default function Resume(props) {
     ]
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.download = 'Example-PDF-File';
+        link.download = 'Nitin-resume';
         link.href = resumePdf;
         link.click();
     };

@@ -7,7 +7,7 @@ export default function AboutUs(props) {
     document.title = props.title
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.download = 'Example-PDF-File';
+        link.download = 'Nitin-resume';
         link.href = resumePdf;
         link.click();
     };
