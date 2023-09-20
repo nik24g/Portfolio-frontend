@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcc7920d.css",
+    "main.js": "/static/js/main.32994c2d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/intro-bg.jpg": "/static/media/intro-bg.3eb4a5ef388cc92f6dc2.jpg",
+    "static/media/Nitin-resume.pdf": "/static/media/Nitin-resume.c41135d39f74fca78b32.pdf",
+    "static/media/Nik.jpg": "/static/media/Nik.e0ab8aada58d1607d402.jpg",
+    "static/media/linkdin-icon.png": "/static/media/linkdin-icon.032cf8a63be2f0f4d425.png",
+    "index.html": "/index.html",
+    "main.dcc7920d.css.map": "/static/css/main.dcc7920d.css.map",
+    "main.32994c2d.js.map": "/static/js/main.32994c2d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcc7920d.css",
+    "static/js/main.32994c2d.js"
+  ]
+}
