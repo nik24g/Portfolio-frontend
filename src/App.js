@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Projects from "./components/Projects";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             <Route exact path="/about" element={<AboutUs title="Nitin | About"/>} />
             <Route exact path="/services" element={<Services title="Nitin | Services"/>} />
             <Route exact path="/resume" element={<Resume title="Nitin | Resume"/>}/>
+            <Route exact path="/Projects/*" element={<Projects title="Nitin | Projects"/>}/>
             <Route exact path="/contact" element={<Contact title="Nitin | Contact Us"/>}/>
           </Routes>
         </div>

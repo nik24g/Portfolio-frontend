@@ -1,0 +1,58 @@
+.projects-body{
+    height: 100vh;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+    padding: 0px 48px;
+}
+.projects-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 48px 0;
+
+}
+.projects-nav ul li{
+    text-align: center;
+    line-height: 2.5;
+    padding: 9px 16px;
+    color: #ddd;
+}
+.projects-nav ul .active{
+    border-bottom: 3px solid #20c997;
+    color: #20c997;
+}
+
+.projects-nav ul li:hover{
+    color: #20c997;
+}
+.project-carousel{
+    box-shadow: rgba(0, 0, 0, 0.24) 14px 14px 12px;
+    /* width: 354px; */
+    height: 300px;
+    border-radius: 10px;
+}
+.project-carousel img{
+    height: 236px;
+    width: 354px;
+    border-radius: 6px;
+}
+.project-carousel div{
+    border-radius: 6px;
+}
+.project-carousel img + div{
+    height: 6px !important;
+    
+}
+.awssld{
+    --loader-bar-color: #20c997 !important;
+}
+
+.project-info-box{
+    max-width: 52vw;
+}
+.project-body{
+    display: flex;
+}

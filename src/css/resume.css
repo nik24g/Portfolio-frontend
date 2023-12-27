@@ -19,7 +19,7 @@
 .resume-mid-box h3:first-child{
     text-align: center;
 }
-.resume-card{
+.resume-card, .project-info-box{
     box-sizing: border-box;
     max-width: 528px;
     /* height: 235px; */
@@ -42,17 +42,17 @@
     padding: 4.9px 9.1px;
     margin: 0 0 16px;
 }
-.resume-card h3{
+.resume-card h3, .project-info-box h3{
     font-size: 23px;
     color: white;
     margin: 0 0 8px;
 }
-.resume-card h4{
+.resume-card h4, .project-info-box h4{
     color: #20c997;
     font-size: 18px;
     margin: 0 0 16px;
 }
-.resume-card p{
+.resume-card p, .project-info-box p{
     color: hsla(0,0%,100%,.5);
     font-size: 16px;
     line-height: 28.8px;
