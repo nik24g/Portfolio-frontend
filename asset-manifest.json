@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcc7920d.css",
-    "main.js": "/static/js/main.c478d88a.js",
+    "main.css": "/static/css/main.cde5743b.css",
+    "main.js": "/static/js/main.7542aa52.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/demo-project2.jpg": "/static/media/demo-project2.6f656ffd09247b24e77f.jpg",
     "static/media/intro-bg.jpg": "/static/media/intro-bg.3eb4a5ef388cc92f6dc2.jpg",
+    "static/media/demo-project.jpeg": "/static/media/demo-project.73d37a5c77be0480621f.jpeg",
     "static/media/nitin.png": "/static/media/nitin.2c085cd1d78c2e445dcf.png",
     "static/media/Nitin-resume.pdf": "/static/media/Nitin-resume.c41135d39f74fca78b32.pdf",
     "static/media/linkdin-icon.png": "/static/media/linkdin-icon.032cf8a63be2f0f4d425.png",
     "index.html": "/index.html",
-    "main.dcc7920d.css.map": "/static/css/main.dcc7920d.css.map",
-    "main.c478d88a.js.map": "/static/js/main.c478d88a.js.map",
+    "main.cde5743b.css.map": "/static/css/main.cde5743b.css.map",
+    "main.7542aa52.js.map": "/static/js/main.7542aa52.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcc7920d.css",
-    "static/js/main.c478d88a.js"
+    "static/css/main.cde5743b.css",
+    "static/js/main.7542aa52.js"
   ]
 }
