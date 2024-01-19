@@ -8,7 +8,7 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 
-const images = [projectImg1, projectImg2];
+// const images = [projectImg1, projectImg2];
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const projectsData = [
     {
@@ -17,8 +17,8 @@ const projectsData = [
         title: "Resume Builder Web Application",
         stack: "HTML, CSS, Java Script on front end and Node.Js, Express.Js and EJS for Backend",
         repo: "",
-        description: "A Simple and attractive dynamic website including backend where user can generate their resume or CV by filling a simple form with all the personal details, skills, exeperiance and projects details. Skills and Project details will come up in a selector so user needs to create project and save its skills seperatly. Basically it was developed for an institude so that their sells team can create resumes for their personals.",
-        images: []
+        description: "A Simple and attractive dynamic website including backend where user can generate their resume or CV by filling a simple form with all the personal details, skills, exeperiance and projects details. Skills and Project details will come up in a selector so user needs to create project and save its skills seperatly. Basically it was developed for an institude so that their sails team can create resumes for their personals.",
+        images: [projectImg1, projectImg2]
     },
     {
         year: 2023,
@@ -27,14 +27,14 @@ const projectsData = [
         stack: "NodeJs, Express.Js And MongoDb",
         repo: "",
         description: "A Simple and attractive dynamic website including backend where user can generate their resume or CV by filling a simple form with all the personal details, skills, exeperiance and projects details. Skills and Project details will come up in a selector so user needs to create project and save its skills seperatly. Basically it was developed for an institude so that their sells team can create resumes for their personals.",
-        images: []
+        images: [projectImg1, projectImg2]
     }
 ]
 function Project(props) {
     return (
         <div className="project-body">
             <AutoplaySlider play={true} cancelOnInteraction={false} interval={6000} className="project-carousel">
-                {images.map((image, i) => (
+                {props.project.images.map((image, i) => (
                     <div key={i} data-src={image} />
                 ))}
             </AutoplaySlider>

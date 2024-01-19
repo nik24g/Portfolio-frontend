@@ -5,6 +5,7 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     overflow-y: scroll;
+    box-sizing: border-box;
     padding: 0px 48px;
 }
 .projects-nav ul{
@@ -52,7 +53,26 @@
 
 .project-info-box{
     max-width: 52vw;
+    margin: 0 10px 0;
 }
 .project-body{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 1500px) {
+    .project-body{
+        flex-direction: column;
+    }
+    .project-carousel{
+        margin-bottom: 70px;
+    }
+    .awssld{
+        width: 55vw !important;
+    }
+    .project-info-box{
+        max-width: 90vw;
+    }
 }
