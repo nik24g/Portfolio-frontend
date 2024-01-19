@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cde5743b.css",
-    "main.js": "/static/js/main.7542aa52.js",
+    "main.css": "/static/css/main.b6e85c8d.css",
+    "main.js": "/static/js/main.7f1ea6d4.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/demo-project2.jpg": "/static/media/demo-project2.6f656ffd09247b24e77f.jpg",
     "static/media/intro-bg.jpg": "/static/media/intro-bg.3eb4a5ef388cc92f6dc2.jpg",
@@ -10,12 +10,12 @@
     "static/media/Nitin-resume.pdf": "/static/media/Nitin-resume.c41135d39f74fca78b32.pdf",
     "static/media/linkdin-icon.png": "/static/media/linkdin-icon.032cf8a63be2f0f4d425.png",
     "index.html": "/index.html",
-    "main.cde5743b.css.map": "/static/css/main.cde5743b.css.map",
-    "main.7542aa52.js.map": "/static/js/main.7542aa52.js.map",
+    "main.b6e85c8d.css.map": "/static/css/main.b6e85c8d.css.map",
+    "main.7f1ea6d4.js.map": "/static/js/main.7f1ea6d4.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cde5743b.css",
-    "static/js/main.7542aa52.js"
+    "static/css/main.b6e85c8d.css",
+    "static/js/main.7f1ea6d4.js"
   ]
 }
