@@ -9,6 +9,7 @@ import fbIcon from '../images/facebook-icon.png'
 import twiIcon from '../images/twitter-icon.png'
 import linkdinIcon from '../images/linkdin-icon.png'
 import gitIcon from '../images/github-icon.png'
+import {contactData} from '../data/contactData'
 
 export default function Navbar() {
     const iconHeight = "30px"
@@ -28,7 +29,7 @@ export default function Navbar() {
                 <div className="dp-img">
                     <img src={profile} alt="profile" />
                 </div>
-                <h2 className="name">Nitin Goswami</h2>
+                <h2 className="name">{contactData.name}</h2>
             </div>
 
             <div className="nav-elements" id='navbar-elements'>
@@ -43,10 +44,10 @@ export default function Navbar() {
             </div>
             <div className="nav-social-links">
                 <ul>
-                    <a href="https://www.facebook.com/profile.php?id=100004814653531" target="_blank" rel="noopener noreferrer"><li><img src={fbIcon} alt="facebook-icon" /></li></a>
-                    <a href="https://twitter.com/Nikgoswami24" target="_blank" rel="noopener noreferrer"><li><img src={twiIcon} alt="twitter-icon" /></li></a>
-                    <a href="https://github.com/nik24g" target="_blank" rel="noopener noreferrer"><li><img src={gitIcon} alt="github-icon" /></li></a>
-                    <a href="https://www.linkedin.com/in/nitin-goswami-064734218/" target="_blank" rel="noopener noreferrer"><li><img src={linkdinIcon} alt="linkdin-icon" /></li></a>
+                    <a href={contactData.facebookProfileLink} target="_blank" rel="noopener noreferrer"><li><img src={fbIcon} alt="facebook-icon" /></li></a>
+                    <a href={contactData.twitterProfileLink} target="_blank" rel="noopener noreferrer"><li><img src={twiIcon} alt="twitter-icon" /></li></a>
+                    <a href={contactData.githubProfileLink} target="_blank" rel="noopener noreferrer"><li><img src={gitIcon} alt="github-icon" /></li></a>
+                    <a href={contactData.linkdinProfileLink} target="_blank" rel="noopener noreferrer"><li><img src={linkdinIcon} alt="linkdin-icon" /></li></a>
                 </ul>
             </div>
             <div className='navbar-toggle' onClick={handleNavToggle}>
